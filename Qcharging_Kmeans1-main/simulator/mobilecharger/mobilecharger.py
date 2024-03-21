@@ -21,11 +21,11 @@ class MobileCharger:
         self.arrival_time = 0   
 
         self.energy = energy  # energy now
-        self.capacity = capacity  # capacity of mc
+        self.capacity = capacity  # capacity of mc  #T capacity for what
         self.e_move = e_move  # energy for moving
         self.e_self_charge = e_self_charge  # energy receive per second
         self.velocity = velocity  # velocity of mc
-        self.depot_state = depot_state
+        self.depot_state = depot_state #T what is depot state
         self.state = depot_state # Current state in Q_table
 
     def get_status(self):
@@ -57,7 +57,7 @@ class MobileCharger:
             self.is_self_charge = True
         else:
             self.is_self_charge = False
-
+    # read here
     def get_next_location(self, network, time_stem, optimizer=None):
         next_location, charging_time = optimizer.update(self, network, time_stem)
         self.start = self.current
