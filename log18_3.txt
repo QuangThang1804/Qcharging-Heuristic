@@ -1,0 +1,782 @@
+C:\Users\HT-Com\AppData\Local\Microsoft\WindowsApps\python3.10.exe C:\Users\HT-Com\PycharmProjects\Qcharging_Kmeans1-main\Qcharging_Kmeans1-main\simulate.py
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+ █████   ███   █████ ███████████    █████████  ██████   █████     █████████   ███                             ████             █████
+░░███   ░███  ░░███ ░░███░░░░░███  ███░░░░░███░░██████ ░░███     ███░░░░░███ ░░░                             ░░███            ░░███
+ ░███   ░███   ░███  ░███    ░███ ░███    ░░░  ░███░███ ░███    ░███    ░░░  ████  █████████████   █████ ████ ░███   ██████   ███████    ██████  ████████
+ ░███   ░███   ░███  ░██████████  ░░█████████  ░███░░███░███    ░░█████████ ░░███ ░░███░░███░░███ ░░███ ░███  ░███  ░░░░░███ ░░░███░    ███░░███░░███░░███
+ ░░███  █████  ███   ░███░░░░░███  ░░░░░░░░███ ░███ ░░██████     ░░░░░░░░███ ░███  ░███ ░███ ░███  ░███ ░███  ░███   ███████   ░███    ░███ ░███ ░███ ░░░
+  ░░░█████░█████░    ░███    ░███  ███    ░███ ░███  ░░█████     ███    ░███ ░███  ░███ ░███ ░███  ░███ ░███  ░███  ███░░███   ░███ ███░███ ░███ ░███
+    ░░███ ░░███      █████   █████░░█████████  █████  ░░█████   ░░█████████  █████ █████░███ █████ ░░████████ █████░░████████  ░░█████ ░░██████  █████
+     ░░░   ░░░      ░░░░░   ░░░░░  ░░░░░░░░░  ░░░░░    ░░░░░     ░░░░░░░░░  ░░░░░ ░░░░░ ░░░ ░░░░░   ░░░░░░░░ ░░░░░  ░░░░░░░░    ░░░░░   ░░░░░░  ░░░░░
+------------------------------------------------------------Qlearning Kmeans Optimization-----------------------------------------------------------------
+
+
+Select one way to run Simulator:
+	1. Start
+	2. Resume (Requires checkpoint.pkl and log file)
+Confirm your selection (1/2): 2
+------------------------------------------------------------------------------
+[Simulator] Resuming Experiment...
+Enter Experiment type: 1
+Enter Experiment index: 1
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: 0
+Enter Experiment index: 1
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: 2
+Enter Experiment index: 1
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: 2
+Enter Experiment index: 2
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: 0
+Enter Experiment index: 1
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: 0
+Enter Experiment index: 0
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: 0
+Enter Experiment index: 2
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: 0
+Enter Experiment index: 3
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: 0
+Enter Experiment index: 4
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: 0
+Enter Experiment index: 5
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: 0
+Enter Experiment index: 6
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: network
+Enter Experiment index: 1
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: net
+Enter Experiment index: 1
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: net
+Enter Experiment index: network
+Experiment checkpoint does not exist! Please try a again.
+Enter Experiment type: node
+Enter Experiment index: 1
+[Simulator] Resuming experiment (node, 1) repetition 0, at 1001s.
+[Network] Simulating time: 1101s, lowest energy node: 4.8277 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (0.0, 0.0)
+		MC #1 is deactivated at (0.0, 0.0)
+		MC #2 is deactivated at (0.0, 0.0)
+[Network] Simulating time: 1201s, lowest energy node: 4.3555 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (0.0, 0.0)
+		MC #1 is deactivated at (0.0, 0.0)
+		MC #2 is deactivated at (0.0, 0.0)
+[Optimizer] MC #0 is sent to point (496, 554) (id=41) and charge for 153.53s
+[Mobile Charger] MC #0 moves to (496, 554) in 148.71879504622137s and charges for 153.53377771570595s
+[Optimizer] MC #1 is sent to point (496, 554) (id=41) and charge for 300.41s
+[Mobile Charger] MC #1 moves to (496, 554) in 148.71879504622137s and charges for 300.4102337911947s
+[Optimizer] MC #2 is sent to point (496, 554) (id=41) and charge for 502.65s
+[Mobile Charger] MC #2 moves to (496, 554) in 148.71879504622137s and charges for 502.6514020566889s
+[Network] Simulating time: 1301s, lowest energy node: 3.8876 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is moving at (80.04368241620216, 89.40362915035476)
+		MC #1 is moving at (80.04368241620216, 89.40362915035476)
+		MC #2 is moving at (80.04368241620216, 89.40362915035476)
+[Network] Simulating time: 1401s, lowest energy node: 3.4169 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is moving at (413.559025817044, 461.91875061016583)
+		MC #1 is moving at (413.559025817044, 461.91875061016583)
+		MC #2 is moving at (413.559025817044, 461.91875061016583)
+[Network] Simulating time: 1501s, lowest energy node: 3.7863 at (459, 640)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (496, 554)
+		MC #1 is charging at (496, 554)
+		MC #2 is charging at (496, 554)
+[Simulator] Simulation checkpoint set at 1501s
+[Optimizer] MC #0 is sent to point (459, 632) (id=42) and charge for 542.09s
+[Mobile Charger] MC #0 moves to (459, 632) in 17.266151858477325s and charges for 542.091507395899s
+[Network] Simulating time: 1601s, lowest energy node: 4.0914 at (459, 640)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (459, 632)
+		MC #1 is charging at (496, 554)
+		MC #2 is charging at (496, 554)
+[Network] Simulating time: 1701s, lowest energy node: 5.3108 at (428, 524)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (459, 632)
+		MC #1 is charging at (496, 554)
+		MC #2 is charging at (496, 554)
+[Mobile Charger] MC #1 moves to (496, 554) in 0.0s and charges for 0.0s
+[Network] Simulating time: 1801s, lowest energy node: 5.4746 at (428, 524)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is charging at (496, 554)
+[Network] Simulating time: 1901s, lowest energy node: 5.5121 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is charging at (496, 554)
+[Mobile Charger] MC #2 moves to (496, 554) in 0.0s and charges for 0.0s
+[Network] Simulating time: 2001s, lowest energy node: 5.2977 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Simulator] Simulation checkpoint set at 2001s
+[Network] Simulating time: 2101s, lowest energy node: 5.0363 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Mobile Charger] MC #0 moves to (459, 632) in 0.0s and charges for 0.0s
+[Network] Simulating time: 2201s, lowest energy node: 4.7187 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Network] Simulating time: 2301s, lowest energy node: 4.3725 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Optimizer] MC #0 is sent to point (409, 537) (id=14) and charge for 127.49s
+[Mobile Charger] MC #0 moves to (409, 537) in 21.470910553583888s and charges for 127.4864105367919s
+[Optimizer] MC #1 is sent to point (459, 632) (id=42) and charge for 226.61s
+[Mobile Charger] MC #1 moves to (459, 632) in 17.266151858477325s and charges for 226.60958885693694s
+[Optimizer] MC #2 is sent to point (409, 537) (id=14) and charge for 1368.08s
+[Mobile Charger] MC #2 moves to (409, 537) in 17.72907216974425s and charges for 1368.0811692674708s
+[Network] Simulating time: 2401s, lowest energy node: 3.9541 at (428, 524)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is moving at (433.38394619420575, 583.3294977689914)
+		MC #1 is moving at (472.4278686220303, 603.6926012832877)
+		MC #2 is moving at (442.0208638761608, 543.4523527114341)
+[Network] Simulating time: 2501s, lowest energy node: 4.1280 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (409, 537)
+		MC #1 is charging at (459, 632)
+		MC #2 is charging at (409, 537)
+[Simulator] Simulation checkpoint set at 2501s
+[Mobile Charger] MC #0 moves to (409, 537) in 0.0s and charges for 0.0s
+[Network] Simulating time: 2601s, lowest energy node: 4.1467 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (409, 537)
+		MC #1 is charging at (459, 632)
+		MC #2 is charging at (409, 537)
+[Mobile Charger] MC #1 moves to (459, 632) in 0.0s and charges for 0.0s
+[Network] Simulating time: 2701s, lowest energy node: 4.0346 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (409, 537)
+		MC #1 is deactivated at (459, 632)
+		MC #2 is charging at (409, 537)
+[Optimizer] MC #0 is sent to point (455, 463) (id=32) and charge for 1542.90s
+[Mobile Charger] MC #0 moves to (455, 463) in 17.426416728633573s and charges for 1542.9019793443263s
+[Optimizer] MC #1 is sent to point (455, 463) (id=32) and charge for 2106.95s
+[Mobile Charger] MC #1 moves to (455, 463) in 33.80946613006482s and charges for 2106.9486603387213s
+[Network] Simulating time: 2801s, lowest energy node: 5.6117 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is charging at (409, 537)
+[Network] Simulating time: 2901s, lowest energy node: 6.2963 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is charging at (409, 537)
+[Network] Simulating time: 3001s, lowest energy node: 6.2736 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is charging at (409, 537)
+[Simulator] Simulation checkpoint set at 3001s
+[Network] Simulating time: 3101s, lowest energy node: 6.2489 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is charging at (409, 537)
+[Network] Simulating time: 3201s, lowest energy node: 6.2192 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is charging at (409, 537)
+[Network] Simulating time: 3301s, lowest energy node: 6.1930 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is charging at (409, 537)
+[Network] Simulating time: 3401s, lowest energy node: 6.1662 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is charging at (409, 537)
+[Network] Simulating time: 3501s, lowest energy node: 6.1411 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is charging at (409, 537)
+[Simulator] Simulation checkpoint set at 3501s
+[Network] Simulating time: 3601s, lowest energy node: 6.1200 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is charging at (409, 537)
+[Network] Simulating time: 3701s, lowest energy node: 6.0970 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is charging at (409, 537)
+[Mobile Charger] MC #2 moves to (409, 537) in 0.0s and charges for 0.0s
+[Network] Simulating time: 3801s, lowest energy node: 6.0666 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Network] Simulating time: 3901s, lowest energy node: 6.0098 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Network] Simulating time: 4001s, lowest energy node: 5.9527 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Simulator] Simulation checkpoint set at 4001s
+[Network] Simulating time: 4101s, lowest energy node: 5.8992 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Network] Simulating time: 4201s, lowest energy node: 5.8459 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Mobile Charger] MC #0 moves to (455, 463) in 0.0s and charges for 0.0s
+[Network] Simulating time: 4301s, lowest energy node: 5.7796 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Network] Simulating time: 4401s, lowest energy node: 5.6764 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Network] Simulating time: 4501s, lowest energy node: 5.5669 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Simulator] Simulation checkpoint set at 4501s
+[Network] Simulating time: 4601s, lowest energy node: 5.4615 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Network] Simulating time: 4701s, lowest energy node: 5.3519 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Network] Simulating time: 4801s, lowest energy node: 5.2030 at (459, 640)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is charging at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Mobile Charger] MC #1 moves to (455, 463) in 0.0s and charges for 0.0s
+[Network] Simulating time: 4901s, lowest energy node: 4.8057 at (459, 640)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is deactivated at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Network] Simulating time: 5001s, lowest energy node: 4.3574 at (459, 640)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is deactivated at (455, 463)
+		MC #2 is deactivated at (409, 537)
+[Simulator] Simulation checkpoint set at 5001s
+[Optimizer] MC #0 is sent to point (459, 632) (id=42) and charge for 56.63s
+[Mobile Charger] MC #0 moves to (459, 632) in 33.80946613006482s and charges for 56.63069668409959s
+[Optimizer] MC #1 is sent to point (459, 632) (id=42) and charge for 277.97s
+[Mobile Charger] MC #1 moves to (459, 632) in 33.80946613006482s and charges for 277.97389552621166s
+[Optimizer] MC #2 is sent to point (459, 632) (id=42) and charge for 338.26s
+[Mobile Charger] MC #2 moves to (459, 632) in 21.470910553583888s and charges for 338.25913318403803s
+[Network] Simulating time: 5101s, lowest energy node: 3.9097 at (459, 640)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is moving at (457.1295810978801, 552.9748013854295)
+		MC #1 is moving at (457.1295810978801, 552.9748013854295)
+		MC #2 is moving at (450.91717895493605, 616.6426400143778)
+[Mobile Charger] MC #0 moves to (459, 632) in 0.0s and charges for 0.0s
+[Network] Simulating time: 5201s, lowest energy node: 4.7102 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is charging at (459, 632)
+		MC #2 is charging at (459, 632)
+[Network] Simulating time: 5301s, lowest energy node: 4.5968 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is charging at (459, 632)
+		MC #2 is charging at (459, 632)
+[Mobile Charger] MC #1 moves to (459, 632) in 0.0s and charges for 0.0s
+[Network] Simulating time: 5401s, lowest energy node: 4.4872 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (459, 632)
+		MC #2 is charging at (459, 632)
+[Mobile Charger] MC #2 moves to (459, 632) in 0.0s and charges for 0.0s
+[Network] Simulating time: 5501s, lowest energy node: 4.3416 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (459, 632)
+		MC #2 is deactivated at (459, 632)
+[Simulator] Simulation checkpoint set at 5501s
+[Network] Simulating time: 5601s, lowest energy node: 4.1839 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (459, 632)
+		MC #2 is deactivated at (459, 632)
+[Network] Simulating time: 5701s, lowest energy node: 4.0259 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (459, 632)
+		MC #2 is deactivated at (459, 632)
+[Optimizer] MC #0 is sent to point (455, 463) (id=32) and charge for 312.36s
+[Mobile Charger] MC #0 moves to (455, 463) in 33.80946613006482s and charges for 312.36285527589956s
+[Optimizer] MC #1 is sent to point (638, 307) (id=69) and charge for 122.61s
+[Mobile Charger] MC #1 moves to (638, 307) in 74.20673823851847s and charges for 122.61270539270498s
+[Optimizer] MC #2 is sent to point (638, 307) (id=69) and charge for 301.25s
+[Mobile Charger] MC #2 moves to (638, 307) in 74.20673823851847s and charges for 301.2489224332079s
+[Network] Simulating time: 5801s, lowest energy node: 4.1660 at (643, 322)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (638, 307)
+		MC #2 is charging at (638, 307)
+[Network] Simulating time: 5901s, lowest energy node: 5.3388 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is charging at (638, 307)
+		MC #2 is charging at (638, 307)
+[Mobile Charger] MC #1 moves to (638, 307) in 0.0s and charges for 0.0s
+[Network] Simulating time: 6001s, lowest energy node: 5.3077 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is deactivated at (638, 307)
+		MC #2 is charging at (638, 307)
+[Simulator] Simulation checkpoint set at 6001s
+[Mobile Charger] MC #0 moves to (455, 463) in 0.0s and charges for 0.0s
+[Mobile Charger] MC #2 moves to (638, 307) in 0.0s and charges for 0.0s
+[Network] Simulating time: 6101s, lowest energy node: 4.9769 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is deactivated at (638, 307)
+		MC #2 is deactivated at (638, 307)
+[Network] Simulating time: 6201s, lowest energy node: 4.5053 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is deactivated at (638, 307)
+		MC #2 is deactivated at (638, 307)
+[Network] Simulating time: 6301s, lowest energy node: 4.0446 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is deactivated at (638, 307)
+		MC #2 is deactivated at (638, 307)
+[Optimizer] MC #0 is sent to point (459, 632) (id=42) and charge for 434.25s
+[Mobile Charger] MC #0 moves to (459, 632) in 33.80946613006482s and charges for 434.24536414494435s
+[Optimizer] MC #1 is sent to point (496, 554) (id=41) and charge for 686.49s
+[Mobile Charger] MC #1 moves to (496, 554) in 56.98175146483302s and charges for 686.4915097348019s
+[Optimizer] MC #2 is sent to point (496, 554) (id=41) and charge for 875.44s
+[Mobile Charger] MC #2 moves to (496, 554) in 56.98175146483302s and charges for 875.4431523485667s
+[Network] Simulating time: 6401s, lowest energy node: 4.7912 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (459, 632)
+		MC #1 is charging at (496, 554)
+		MC #2 is charging at (496, 554)
+[Network] Simulating time: 6501s, lowest energy node: 5.5527 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (459, 632)
+		MC #1 is charging at (496, 554)
+		MC #2 is charging at (496, 554)
+[Simulator] Simulation checkpoint set at 6501s
+[Network] Simulating time: 6601s, lowest energy node: 5.4996 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (459, 632)
+		MC #1 is charging at (496, 554)
+		MC #2 is charging at (496, 554)
+[Network] Simulating time: 6701s, lowest energy node: 5.4445 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (459, 632)
+		MC #1 is charging at (496, 554)
+		MC #2 is charging at (496, 554)
+[Mobile Charger] MC #0 moves to (459, 632) in 0.0s and charges for 0.0s
+[Network] Simulating time: 6801s, lowest energy node: 5.3824 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is charging at (496, 554)
+		MC #2 is charging at (496, 554)
+[Network] Simulating time: 6901s, lowest energy node: 5.3069 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is charging at (496, 554)
+		MC #2 is charging at (496, 554)
+[Network] Simulating time: 7001s, lowest energy node: 5.2344 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is charging at (496, 554)
+		MC #2 is charging at (496, 554)
+[Simulator] Simulation checkpoint set at 7001s
+[Mobile Charger] MC #1 moves to (496, 554) in 0.0s and charges for 0.0s
+[Network] Simulating time: 7101s, lowest energy node: 5.1490 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is charging at (496, 554)
+[Network] Simulating time: 7201s, lowest energy node: 5.0504 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is charging at (496, 554)
+[Mobile Charger] MC #2 moves to (496, 554) in 0.0s and charges for 0.0s
+[Network] Simulating time: 7301s, lowest energy node: 4.9316 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Network] Simulating time: 7401s, lowest energy node: 4.8006 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Network] Simulating time: 7501s, lowest energy node: 4.6739 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Simulator] Simulation checkpoint set at 7501s
+[Network] Simulating time: 7601s, lowest energy node: 4.5417 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Network] Simulating time: 7701s, lowest energy node: 4.4169 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Network] Simulating time: 7801s, lowest energy node: 4.2918 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Network] Simulating time: 7901s, lowest energy node: 4.1613 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Network] Simulating time: 8001s, lowest energy node: 4.0257 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (459, 632)
+		MC #1 is deactivated at (496, 554)
+		MC #2 is deactivated at (496, 554)
+[Simulator] Simulation checkpoint set at 8001s
+[Optimizer] MC #0 is sent to point (638, 307) (id=69) and charge for 56.74s
+[Mobile Charger] MC #0 moves to (638, 307) in 74.20673823851847s and charges for 56.74335414232445s
+[Optimizer] MC #1 is sent to point (409, 537) (id=14) and charge for 17.54s
+[Mobile Charger] MC #1 moves to (409, 537) in 17.72907216974425s and charges for 17.536062548311993s
+[Optimizer] MC #2 is sent to point (638, 307) (id=69) and charge for 92.78s
+[Mobile Charger] MC #2 moves to (638, 307) in 56.98175146483302s and charges for 92.7768368665934s
+[Optimizer] MC #1 is sent to point (459, 632) (id=42) and charge for 423.23s
+[Mobile Charger] MC #1 moves to (459, 632) in 21.470910553583888s and charges for 423.2280623878686s
+[Network] Simulating time: 8101s, lowest energy node: 4.0165 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (638, 307)
+		MC #1 is charging at (459, 632)
+		MC #2 is charging at (638, 307)
+[Mobile Charger] MC #0 moves to (638, 307) in 0.0s and charges for 0.0s
+[Mobile Charger] MC #2 moves to (638, 307) in 0.0s and charges for 0.0s
+[Network] Simulating time: 8201s, lowest energy node: 4.3874 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (638, 307)
+		MC #1 is charging at (459, 632)
+		MC #2 is deactivated at (638, 307)
+[Network] Simulating time: 8301s, lowest energy node: 4.2774 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (638, 307)
+		MC #1 is charging at (459, 632)
+		MC #2 is deactivated at (638, 307)
+[Network] Simulating time: 8401s, lowest energy node: 4.1237 at (428, 524)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (638, 307)
+		MC #1 is charging at (459, 632)
+		MC #2 is deactivated at (638, 307)
+[Optimizer] MC #0 is sent to point (409, 537) (id=14) and charge for 138.53s
+[Mobile Charger] MC #0 moves to (409, 537) in 64.91255656650722s and charges for 138.53260406896183s
+[Mobile Charger] MC #2 moves to (638, 307) in 0.0s and charges for 0.0s
+[Optimizer] MC #2 is sent to point (409, 537) (id=14) and charge for 21.95s
+[Mobile Charger] MC #2 moves to (409, 537) in 64.91255656650722s and charges for 21.946649438032253s
+[Optimizer] MC #1 is sent to point (409, 537) (id=14) and charge for 24.25s
+[Mobile Charger] MC #1 moves to (409, 537) in 21.470910553583888s and charges for 24.250638358388198s
+[Network] Simulating time: 8501s, lowest energy node: 3.8678 at (428, 524)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is moving at (458.0810348913899, 487.70463744532793)
+		MC #1 is moving at (456.6712678358369, 627.5754088880901)
+		MC #2 is moving at (461.6088577366567, 484.1614092601254)
+[Simulator] Simulation checkpoint set at 8501s
+[Mobile Charger] MC #2 moves to (409, 537) in 0.0s and charges for 0.0s
+[Mobile Charger] MC #1 moves to (409, 537) in 0.0s and charges for 0.0s
+[Mobile Charger] MC #1 moves to (409, 537) in 0.0s and charges for 0.0s
+[Optimizer] MC #1 is sent to point (638, 307) (id=69) and charge for 123.29s
+[Mobile Charger] MC #1 moves to (638, 307) in 64.91255656650722s and charges for 123.29168279638725s
+[Optimizer] MC #2 is sent to point (638, 307) (id=69) and charge for 163.19s
+[Mobile Charger] MC #2 moves to (638, 307) in 64.91255656650722s and charges for 163.19284324065717s
+[Network] Simulating time: 8601s, lowest energy node: 3.9330 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is moving at (293.87723240571916, 385.84859120261854)
+		MC #1 is moving at (592.4467879538762, 352.75213436946996)
+		MC #2 is moving at (592.4467879538762, 352.75213436946996)
+[Network] Simulating time: 8701s, lowest energy node: 4.2350 at (428, 524)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is self_charging at (0.0, 0.0)
+		MC #1 is charging at (638, 307)
+		MC #2 is charging at (638, 307)
+[Mobile Charger] MC #1 moves to (638, 307) in 0.0s and charges for 0.0s
+[Mobile Charger] MC #0 moves to (409, 537) in 135.00370365289984s and charges for 0.0s
+[Optimizer] MC #0 is sent to point (638, 307) (id=69) and charge for 100.14s
+[Mobile Charger] MC #0 moves to (638, 307) in 141.60409598595658s and charges for 100.14414346117125s
+[Optimizer] MC #1 is sent to point (409, 537) (id=14) and charge for 145.36s
+[Mobile Charger] MC #1 moves to (409, 537) in 64.91255656650722s and charges for 145.36344173653495s
+[Optimizer] MC #2 is sent to point (409, 537) (id=14) and charge for 228.49s
+[Mobile Charger] MC #2 moves to (409, 537) in 64.91255656650722s and charges for 228.4926483256988s
+[Network] Simulating time: 8801s, lowest energy node: 3.8403 at (428, 524)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is moving at (166.70421738606427, 80.21660617166407)
+		MC #1 is moving at (507.47055472512545, 438.0994428524928)
+		MC #2 is moving at (553.3322517135948, 392.0374764448602)
+[Network] Simulating time: 8901s, lowest energy node: 4.5081 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is moving at (617.2561562673201, 297.0182444734588)
+		MC #1 is charging at (409, 537)
+		MC #2 is charging at (409, 537)
+[Mobile Charger] MC #1 moves to (409, 537) in 0.0s and charges for 0.0s
+[Network] Simulating time: 9001s, lowest energy node: 4.5067 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (638, 307)
+		MC #1 is deactivated at (409, 537)
+		MC #2 is charging at (409, 537)
+[Simulator] Simulation checkpoint set at 9001s
+[Mobile Charger] MC #0 moves to (638, 307) in 0.0s and charges for 0.0s
+[Mobile Charger] MC #2 moves to (409, 537) in 0.0s and charges for 0.0s
+[Network] Simulating time: 9101s, lowest energy node: 4.2162 at (491, 571)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (638, 307)
+		MC #1 is deactivated at (409, 537)
+		MC #2 is deactivated at (409, 537)
+[Optimizer] MC #0 is sent to point (496, 554) (id=41) and charge for 114.35s
+[Mobile Charger] MC #0 moves to (496, 554) in 56.98175146483302s and charges for 114.35093747775912s
+[Optimizer] MC #1 is sent to point (496, 554) (id=41) and charge for 339.60s
+[Mobile Charger] MC #1 moves to (496, 554) in 17.72907216974425s and charges for 339.5977034246313s
+[Optimizer] MC #2 is sent to point (496, 554) (id=41) and charge for 120.07s
+[Mobile Charger] MC #2 moves to (496, 554) in 17.72907216974425s and charges for 120.06780156592495s
+[Network] Simulating time: 9201s, lowest energy node: 4.3208 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is moving at (500.9385759611145, 545.4096601239809)
+		MC #1 is moving at (462.6484656599158, 516.748487854019)
+		MC #2 is charging at (496, 554)
+[Mobile Charger] MC #2 moves to (496, 554) in 0.0s and charges for 0.0s
+[Network] Simulating time: 9301s, lowest energy node: 4.3175 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (496, 554)
+		MC #1 is moving at (129.13312225907396, 144.23336639420816)
+		MC #2 is deactivated at (496, 554)
+[Mobile Charger] MC #0 moves to (496, 554) in 0.0s and charges for 0.0s
+[Mobile Charger] MC #1 moves to (496, 554) in 148.71879504622137s and charges for 0.0s
+[Network] Simulating time: 9401s, lowest energy node: 4.0058 at (464, 450)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (496, 554)
+		MC #1 is deactivated at (0.0, 0.0)
+		MC #2 is deactivated at (496, 554)
+[Optimizer] MC #0 is sent to point (455, 463) (id=32) and charge for 77.77s
+[Mobile Charger] MC #0 moves to (455, 463) in 19.961963831246663s and charges for 77.7672869162771s
+[Optimizer] MC #1 is sent to point (455, 463) (id=32) and charge for 7.95s
+[Mobile Charger] MC #1 moves to (455, 463) in 129.82973465273662s and charges for 7.950518394815304s
+[Optimizer] MC #2 is sent to point (455, 463) (id=32) and charge for 23.46s
+[Mobile Charger] MC #2 moves to (455, 463) in 19.961963831246663s and charges for 23.46463718941903s
+[Mobile Charger] MC #2 moves to (455, 463) in 0.0s and charges for 0.0s
+[Mobile Charger] MC #0 moves to (455, 463) in 0.0s and charges for 0.0s
+[Network] Simulating time: 9501s, lowest energy node: 4.1143 at (580, 672)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (455, 463)
+		MC #1 is moving at (343.4498277244999, 349.4885060141615)
+		MC #2 is deactivated at (455, 463)
+[Simulator] Simulation checkpoint set at 9501s
+[Mobile Charger] MC #1 moves to (455, 463) in 0.0s and charges for 0.0s
+[Optimizer] MC #0 is sent to point (496, 554) (id=41) and charge for 83.02s
+[Mobile Charger] MC #0 moves to (496, 554) in 19.961963831246663s and charges for 83.01559422617164s
+[Optimizer] MC #1 is sent to point (566, 673) (id=45) and charge for 248.22s
+[Mobile Charger] MC #1 moves to (566, 673) in 47.506210120362155s and charges for 248.21779978353084s
+[Optimizer] MC #2 is sent to point (566, 673) (id=45) and charge for 103.90s
+[Mobile Charger] MC #2 moves to (566, 673) in 47.506210120362155s and charges for 103.90198612112137s
+[Network] Simulating time: 9601s, lowest energy node: 3.9607 at (580, 672)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (496, 554)
+		MC #1 is moving at (525.0960988376698, 595.614241044239)
+		MC #2 is moving at (525.0960988376698, 595.614241044239)
+[Mobile Charger] MC #0 moves to (496, 554) in 0.0s and charges for 0.0s
+[Network] Simulating time: 9701s, lowest energy node: 4.3097 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (496, 554)
+		MC #1 is charging at (566, 673)
+		MC #2 is charging at (566, 673)
+[Mobile Charger] MC #2 moves to (566, 673) in 0.0s and charges for 0.0s
+[Network] Simulating time: 9801s, lowest energy node: 4.2015 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (496, 554)
+		MC #1 is charging at (566, 673)
+		MC #2 is deactivated at (566, 673)
+[Mobile Charger] MC #1 moves to (566, 673) in 0.0s and charges for 0.0s
+[Network] Simulating time: 9901s, lowest energy node: 4.0848 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is deactivated at (496, 554)
+		MC #1 is deactivated at (566, 673)
+		MC #2 is deactivated at (566, 673)
+[Optimizer] MC #0 is sent to point (455, 463) (id=32) and charge for 63.71s
+[Mobile Charger] MC #0 moves to (455, 463) in 19.961963831246663s and charges for 63.70924563533833s
+[Optimizer] MC #1 is sent to point (638, 307) (id=69) and charge for 10.85s
+[Mobile Charger] MC #1 moves to (638, 307) in 74.60294900337385s and charges for 10.850877415072798s
+[Optimizer] MC #2 is sent to point (638, 307) (id=69) and charge for 12.98s
+[Mobile Charger] MC #2 moves to (638, 307) in 74.60294900337385s and charges for 12.983916943562818s
+[Network] Simulating time: 10001s, lowest energy node: 3.9568 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (455, 463)
+		MC #1 is moving at (599.7788255513334, 501.29097011405605)
+		MC #2 is moving at (599.7788255513334, 501.29097011405605)
+[Simulator] Simulation checkpoint set at 10001s
+[Optimizer] MC #0 is sent to point (496, 554) (id=41) and charge for 76.23s
+[Mobile Charger] MC #0 moves to (496, 554) in 19.961963831246663s and charges for 76.23383074404244s
+[Optimizer] MC #1 is sent to point (496, 554) (id=41) and charge for 65.62s
+[Mobile Charger] MC #1 moves to (496, 554) in 56.98175146483302s and charges for 65.61714874533955s
+[Optimizer] MC #2 is sent to point (409, 537) (id=14) and charge for 12.97s
+[Mobile Charger] MC #2 moves to (409, 537) in 64.91255656650722s and charges for 12.96645874661155s
+[Network] Simulating time: 10101s, lowest energy node: 3.9364 at (701, 298)
+		Number of dead nodes: 0
+		Number of packages: 600
+		MC #0 is charging at (496, 554)
+		MC #1 is moving at (513.3987054191953, 523.7360546581647)
+		MC #2 is moving at (468.66450342719037, 477.0749528897204)
+[Optimizer] MC #2 is sent to point (496, 554) (id=41) and charge for 45.78s
+[Mobile Charger] MC #2 moves to (496, 554) in 17.72907216974425s and charges for 45.78226232687006s
+[Optimizer] MC #0 is sent to point (638, 307) (id=69) and charge for 17.69s
+[Mobile Charger] MC #0 moves to (638, 307) in 56.98175146483302s and charges for 17.68673149183925s
+[Optimizer] MC #1 is sent to point (638, 307) (id=69) and charge for 33.23s
+[Mobile Charger] MC #1 moves to (638, 307) in 56.98175146483302s and charges for 33.225743030725674s
+[Optimizer] MC #2 is sent to point (714, 327) (id=5) and charge for 1.10s
+[Mobile Charger] MC #2 moves to (714, 327) in 62.94537314211426s and charges for 1.1025937563945079s
+Traceback (most recent call last):
+  File "C:\Users\HT-Com\PycharmProjects\Qcharging_Kmeans1-main\Qcharging_Kmeans1-main\simulate.py", line 156, in <module>
+    resume_simulating()
+  File "C:\Users\HT-Com\PycharmProjects\Qcharging_Kmeans1-main\Qcharging_Kmeans1-main\simulate.py", line 130, in resume_simulating
+    lifetime    = net.simulate(optimizer=optimizer, t=time, dead_time=dead_time)
+  File "C:\Users\HT-Com\PycharmProjects\Qcharging_Kmeans1-main\Qcharging_Kmeans1-main\simulator\network\network.py", line 154, in simulate
+    life_time = self.simulate_max_time(optimizer=optimizer, t=t, dead_time=dead_time, max_time=max_time)
+  File "C:\Users\HT-Com\PycharmProjects\Qcharging_Kmeans1-main\Qcharging_Kmeans1-main\simulator\network\network.py", line 122, in simulate_max_time
+    state = self.run_per_second(t, optimizer)
+  File "C:\Users\HT-Com\PycharmProjects\Qcharging_Kmeans1-main\Qcharging_Kmeans1-main\simulator\network\network.py", line 68, in run_per_second
+    mc.run(network=self, time_stem=t, net=self, optimizer=optimizer)
+  File "C:\Users\HT-Com\PycharmProjects\Qcharging_Kmeans1-main\Qcharging_Kmeans1-main\simulator\mobilecharger\mobilecharger.py", line 95, in run
+    self.get_next_location(network=network, time_stem=time_stem, optimizer=optimizer)
+  File "C:\Users\HT-Com\PycharmProjects\Qcharging_Kmeans1-main\Qcharging_Kmeans1-main\simulator\mobilecharger\mobilecharger.py", line 69, in get_next_location
+    with open(network.mc_log_file, "a") as mc_log_file:
+PermissionError: [Errno 13] Permission denied: 'log/mc_log_node_1_0.csv'
+
+Process finished with exit code 1
