@@ -33,18 +33,33 @@ def count_package_function(net):
     return count
 
 def set_checkpoint(t=0, network=None, optimizer=None, dead_time=0):
-    exp_index = int(network.experiment.split('_')[1])
+    # exp_index = int(network.experiment.split('_')[1])
     exp_type = network.experiment.split('_')[0]
-    nb_run = int(network.experiment.split('_')[2])
+    nb_run = int(network.experiment.split('_')[1])
     checkpoint = {
         'time'              : t,
         'experiment_type'   : exp_type,
-        'experiment_index'  : exp_index,
+        # 'experiment_index'  : exp_index,
         'nb_run'            : nb_run,
         'network'           : network,
         'optimizer'         : optimizer,
         'dead_time'         : dead_time
     }
-    with open('checkpoint/checkpoint_{}_{}.pkl'.format(exp_type, exp_index), 'wb') as f:
+    with open('checkpoint/checkpoint_{}.pkl'.format(exp_type), 'wb') as f:
         pickle.dump(checkpoint, f)
     print("[Simulator] Simulation checkpoint set at {}s".format(t))
+
+def generate_random_array(n, array):
+  selected_elements = set()
+
+  random_array = []
+  for _ in range(n):
+    random_element = random.randint(0, n - 1)
+
+    while random_element in selected_elements:
+      random_element = random.randint(0, n - 1)
+
+    selected_elements.add(random_element)
+    random_array.append(random_element)
+
+  return random_array
